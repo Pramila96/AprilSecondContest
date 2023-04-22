@@ -1,0 +1,121 @@
+body{
+    background-color: #1E1E1E;
+}
+nav{
+    display: flex;
+    position: sticky;
+    gap:20px;
+    color: #000000;
+background-color:  #FCAF02;
+    padding: 0 20px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+nav > div{
+    width: 40%;
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+h1{
+    width: 736px;
+    font-size:64px;
+    color: #FFFFFF;
+}
+.firstImage{
+   height: 482;
+}
+.header-section{
+    display: flex;
+    background-color: #1E1E1E;
+    color:white;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.leftHalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.rightHalf{
+ display: flex;
+   
+}
+button{
+    width: 323px;
+    height: 66px;
+    background-color: #FCAF02;
+    color:#000000;
+    border-radius: 500px;
+    text-align: center;
+align-items: center;
+padding: 20px;
+}
+#contact{
+    color: #FCAF02;
+}
+.Contact-Us{
+display: flex;
+flex-direction: column;
+background-color: #1E1E1E;
+gap:20px;
+}
+.item{
+    color: #FCAF02;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    background-color: #1E1E1E;
+}
+.two-input{
+display: flex;
+border: none;
+justify-content: space-evenly;
+}
+.two-input > .item{
+    margin-top: 20px;
+}
+#btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.item :hover{
+    border: 2px solid blue;
+}
+button :hover{
+    border: 2px solid blue;
+}
+input::placeholder{
+    color: #FCAF02;
+    padding: 20px;
+
+}
+thead{
+    color: #FCAF02;
+}
+footer{
+    align-items: center;
+}
+th, td {
+    border: 1px solid #FCAF02;
+    align-items: center;
+  }
+  table{margin: 20px;
+   width: 100%;
+   text-align: center;
+
+  }
+  tbody{
+    color: #FCAF02;
+  }
+  tfoot{
+    background-color:#FCAF02 ;
+    color:black;
+  }
+  
